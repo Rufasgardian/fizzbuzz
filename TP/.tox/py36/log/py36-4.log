@@ -1,0 +1,16 @@
+action: py36, msg: installpkg
+cwd: /home/rufat/Desktop/L2_Sem2/Software_Engineering/PW/Pww2/TP
+cmd: /home/rufat/Desktop/L2_Sem2/Software_Engineering/PW/Pww2/TP/.tox/py36/bin/python -m pip install --no-deps -U .tox/.tmp/package/1/fizzbuzz-1.0.0.zip
+Processing ./.tox/.tmp/package/1/fizzbuzz-1.0.0.zip
+Building wheels for collected packages: fizzbuzz
+  Building wheel for fizzbuzz (setup.py): started
+  Building wheel for fizzbuzz (setup.py): finished with status 'done'
+  Created wheel for fizzbuzz: filename=fizzbuzz-1.0.0-py3-none-any.whl size=1052 sha256=0c60abc0616f3a96fbedf0d48e593d2a48391ec444459e042c0156c84d01d7f0
+  Stored in directory: /home/rufat/.cache/pip/wheels/57/05/7b/68b33cbad1fa3c1df0ec5e2fd6f3ede1f32cdf5b011d6f9a71
+Successfully built fizzbuzz
+Installing collected packages: fizzbuzz
+  Attempting uninstall: fizzbuzz
+    Found existing installation: fizzbuzz 1.0.0
+    Not uninstalling fizzbuzz at /home/rufat/Desktop/L2_Sem2/Software_Engineering/PW/Pww2/TP, outside environment /home/rufat/Desktop/L2_Sem2/Software_Engineering/PW/Pww2/TP/.tox/py36
+    Can't uninstall 'fizzbuzz'. No files were found to uninstall.
+Successfully installed fizzbuzz-1.0.0

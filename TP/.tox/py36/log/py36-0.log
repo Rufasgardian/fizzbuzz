@@ -1,0 +1,4 @@
+action: py36, msg: getenv
+cwd: /home/rufat/Desktop/L2_Sem2/Software_Engineering/PW/Pww2/TP/.tox
+cmd: /usr/bin/python -m virtualenv --no-download --python /usr/bin/python3.6 py36
+created virtual environment in 1791ms CPython3Posix(dest=/home/rufat/Desktop/L2_Sem2/Software_Engineering/PW/Pww2/TP/.tox/py36, clear=False, global=False) with seeder FromAppData pip=latest setuptools=latest wheel=latest app_data_dir=/home/rufat/.local/share/virtualenv/seed-v1 via=copy

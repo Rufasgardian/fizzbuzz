@@ -1,0 +1,15 @@
+action: py36, msg: envreport
+cwd: /home/rufat/Desktop/L2_Sem2/Software_Engineering/PW/Pww2/TP
+cmd: /home/rufat/Desktop/L2_Sem2/Software_Engineering/PW/Pww2/TP/.tox/py36/bin/python -m pip freeze
+attrs==19.3.0
+fizzbuzz==1.0.0
+importlib-metadata==1.5.0
+more-itertools==8.2.0
+packaging==20.1
+pluggy==0.13.1
+py==1.8.1
+pyparsing==2.4.6
+pytest==5.3.5
+six==1.14.0
+wcwidth==0.1.8
+zipp==3.0.0

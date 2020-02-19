@@ -1,0 +1,33 @@
+action: GLOB, msg: packaging
+cwd: /home/rufat/Desktop/L2_Sem2/Software_Engineering/PW/Pww2/TP
+cmd: /usr/bin/python setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing fizzbuzz.egg-info/PKG-INFO
+writing top-level names to fizzbuzz.egg-info/top_level.txt
+writing dependency_links to fizzbuzz.egg-info/dependency_links.txt
+reading manifest file 'fizzbuzz.egg-info/SOURCES.txt'
+writing manifest file 'fizzbuzz.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+creating fizzbuzz-1.0.0
+creating fizzbuzz-1.0.0/fizzbuzz.egg-info
+copying files to fizzbuzz-1.0.0...
+copying setup.py -> fizzbuzz-1.0.0
+copying fizzbuzz.egg-info/PKG-INFO -> fizzbuzz-1.0.0/fizzbuzz.egg-info
+copying fizzbuzz.egg-info/SOURCES.txt -> fizzbuzz-1.0.0/fizzbuzz.egg-info
+copying fizzbuzz.egg-info/dependency_links.txt -> fizzbuzz-1.0.0/fizzbuzz.egg-info
+copying fizzbuzz.egg-info/top_level.txt -> fizzbuzz-1.0.0/fizzbuzz.egg-info
+Writing fizzbuzz-1.0.0/setup.cfg
+creating '.tox/dist/fizzbuzz-1.0.0.zip' and adding 'fizzbuzz-1.0.0' to it
+adding 'fizzbuzz-1.0.0'
+adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info'
+adding 'fizzbuzz-1.0.0/PKG-INFO'
+adding 'fizzbuzz-1.0.0/setup.cfg'
+adding 'fizzbuzz-1.0.0/setup.py'
+adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info/dependency_links.txt'
+adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info/top_level.txt'
+adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info/PKG-INFO'
+adding 'fizzbuzz-1.0.0/fizzbuzz.egg-info/SOURCES.txt'
+removing 'fizzbuzz-1.0.0' (and everything under it)

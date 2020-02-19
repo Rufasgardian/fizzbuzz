@@ -1,0 +1,17 @@
+action: py27, msg: installpkg
+cwd: /home/rufat/Desktop/L2_Sem2/Software_Engineering/PW/Pww2/TP
+cmd: /home/rufat/Desktop/L2_Sem2/Software_Engineering/PW/Pww2/TP/.tox/py27/bin/python -m pip install --no-deps -U .tox/.tmp/package/1/fizzbuzz-1.0.0.zip
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Processing ./.tox/.tmp/package/1/fizzbuzz-1.0.0.zip
+Building wheels for collected packages: fizzbuzz
+  Building wheel for fizzbuzz (setup.py): started
+  Building wheel for fizzbuzz (setup.py): finished with status 'done'
+  Created wheel for fizzbuzz: filename=fizzbuzz-1.0.0-py2-none-any.whl size=1054 sha256=d5425af69c1d457004f6dd71280e9c2048a76ea74702f312662e1cb3e4f821f9
+  Stored in directory: /home/rufat/.cache/pip/wheels/24/86/b7/98cfc44aa6fae22a606254eae0461afb215342c1274066163d
+Successfully built fizzbuzz
+Installing collected packages: fizzbuzz
+  Attempting uninstall: fizzbuzz
+    Found existing installation: fizzbuzz 1.0.0
+    Not uninstalling fizzbuzz at /home/rufat/Desktop/L2_Sem2/Software_Engineering/PW/Pww2/TP, outside environment /home/rufat/Desktop/L2_Sem2/Software_Engineering/PW/Pww2/TP/.tox/py27
+    Can't uninstall 'fizzbuzz'. No files were found to uninstall.
+Successfully installed fizzbuzz-1.0.0
